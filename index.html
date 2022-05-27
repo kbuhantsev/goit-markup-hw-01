@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudio</title>
+    <title>Студия</title>
     <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
@@ -12,22 +12,29 @@
       <!--  -->
       <span class="text-logo">WebStudio</span>
       <nav class="navigation">
-        <ul>
-          <li>Студия</li>
-          <li>Портфолио</li>
-          <li>Контакты</li>
+        <ul class="navigation-list">
+          <li class="navigation-item">Студия</li>
+          <li class="navigation-item">Портфолио</li>
+          <li class="navigation-item">Контакты</li>
         </ul>
       </nav>
-      <address>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a href="tel:+38 096 111 11 11">+38 096 111 11 11</a>
-      </address>
+      <div class="header-address">
+        <span class="header-mail"
+          ><a href="mailto:info@devstudio.com">info@devstudio.com</a></span
+        >
+        <span class="header-phone"
+          ><a href="tel:+38 096 111 11 11">+38 096 111 11 11</a></span
+        >
+      </div>
     </header>
 
     <main class="main">
       <!--  -->
       <div class="header-slogan">
-        <button name="button-order" class="button-order">
+        <h1 class="header-slogan-text">
+          Эффективные решения для вашего бизнеса
+        </h1>
+        <button name="button-order" type="button" class="button-order">
           Заказать услугу
         </button>
       </div>
@@ -67,13 +74,13 @@
         <h2 class="employment-header">Чем мы занимаемся</h2>
         <ul class="employment-pictures">
           <li class="employment-picture">
-            <img src="img/box 1.png" alt="Изображение работ" />
+            <img src="images/box 1.png" alt="Изображение работ" width="200" />
           </li>
           <li class="employment-picture">
-            <img src="img/box 2.png" alt="Изображение работ" />
+            <img src="images/box 2.png" alt="Изображение работ" width="200" />
           </li>
           <li class="employment-picture">
-            <img src="img/box 3.png" alt="Изображение работ" />
+            <img src="images/box 3.png" alt="Изображение работ" width="200" />
           </li>
         </ul>
       </div>
@@ -84,8 +91,9 @@
             <div class="person-cart">
               <img
                 class="person-photo"
-                src="img/img-3.jpg"
+                src="images/img-3.jpg"
                 alt="Фото сотрудника"
+                width="150"
               />
               <span class="person-name">Игорь Демьяненко</span>
               <span class="person-speciality">Product Designer</span>
@@ -95,8 +103,9 @@
             <div class="person-cart">
               <img
                 class="person-photo"
-                src="img/img-2.jpg"
+                src="images/img-2.jpg"
                 alt="Фото сотрудника"
+                width="150"
               />
               <span class="person-name">Ольга Репина</span>
               <span class="person-speciality">Frontend Developer</span>
@@ -106,8 +115,9 @@
             <div class="person-cart">
               <img
                 class="person-photo"
-                src="img/img-1.jpg"
+                src="images/img-1.jpg"
                 alt="Фото сотрудника"
+                width="150"
               />
               <span class="person-name">Николай Тарасов</span>
               <span class="person-speciality">Marketing</span>
@@ -117,8 +127,9 @@
             <div class="person-cart">
               <img
                 class="person-photo"
-                src="img/img.jpg"
+                src="images/img.jpg"
                 alt="Фото сотрудника"
+                width="150"
               />
               <span class="person-name">Михаил Ермаков</span>
               <span class="person-speciality">UI Designer</span>
